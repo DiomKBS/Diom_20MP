@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "mx-switches")(type "KiCad")(uri "${GITREPO}/DiomKBS-Switches/mx-switches.pretty")(options "")(descr ""))
+  (lib (name "led")(type "KiCad")(uri "${GITREPO}/DiomKBS-Switches/led.pretty")(options "")(descr ""))
+)
