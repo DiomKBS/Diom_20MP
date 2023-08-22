@@ -1,5 +1,5 @@
 (fp_lib_table
   (lib (name "mx-switches")(type "KiCad")(uri "${GITREPO}/DiomKBS-Switches/mx-switches.pretty")(options "")(descr ""))
   (lib (name "led")(type "KiCad")(uri "${GITREPO}/DiomKBS-Switches/led.pretty")(options "")(descr ""))
-  (lib (name "nice_nano")(type "KiCad")(uri "${GITREPO}/DiomKBS-Switches/nice_nano.pretty")(options "")(descr ""))
+  (lib (name "microcontroller")(type "KiCad")(uri "${GITREPO}/DiomKBS-Switches/microcontroller.pretty")(options "")(descr ""))
 )

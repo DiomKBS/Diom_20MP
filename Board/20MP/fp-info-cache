@@ -1,4 +1,4 @@
-20626675035208401
+20630060488733795
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86506,6 +86506,13 @@ SK6812MINI_3.5x3.7mm_SMD-Back
 4
 4
 led
+THT_Battery
+
+
+0
+2
+2
+led
 led_capacitor
 
 
@@ -86519,6 +86526,20 @@ switch_without_switch
 0
 2
 2
+microcontroller
+nice_nano
+
+
+0
+27
+27
+microcontroller
+nice_nanoV2
+
+
+0
+29
+29
 mx-switches
 CherryMX-1.00U
 Cherry MX switch 5 legs 1.00u keycap
@@ -86562,6 +86583,13 @@ CherryMX-2.00U+1.00U
 4
 2
 mx-switches
+CherryMX-2.00U_90deg
+Cherry MX switch 5 legs 2.00u keycap
+Cherry MX Keyboard Keyswitch Switch 2.00u
+0
+2
+2
+mx-switches
 CherryMX-2.25U
 Cherry MX switch 5 legs 2.25u keycap
 Cherry MX Keyboard Keyswitch Switch 2.25u
@@ -86596,17 +86624,3 @@ CherryMX-ISOEnter+ANSIEnter
 0
 4
 2
-nice_nano
-nice_nano
-
-
-0
-27
-27
-nice_nano
-nice_nanoV2_doubleSided
-
-
-0
-29
-29
