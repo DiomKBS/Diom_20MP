@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name "nice_nano")(type "KiCad")(uri "${GITREPO}/DiomKBS-Switches/nice_nano.pretty/nice_nano.kicad_sym")(options "")(descr ""))
   (lib (name "microcontroller")(type "KiCad")(uri "${GITREPO}/DiomKBS-Switches/microcontroller.kicad_sym")(options "")(descr ""))
 )
