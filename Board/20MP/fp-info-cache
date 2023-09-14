@@ -1,4 +1,4 @@
-20630060488733795
+20633446657268660
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86520,6 +86520,13 @@ led_capacitor
 2
 2
 led
+polyfuse_5.1mm
+
+
+0
+2
+2
+led
 switch_without_switch
 
 
@@ -86540,6 +86547,13 @@ nice_nanoV2
 0
 29
 29
+microcontroller
+nice_view
+
+
+0
+5
+5
 mx-switches
 CherryMX-1.00U
 Cherry MX switch 5 legs 1.00u keycap
