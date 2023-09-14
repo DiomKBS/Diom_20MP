@@ -1525,7 +1525,7 @@
   (symbol (lib_id "power:GND") (at 137.795 88.265 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 077fa9e8-6ace-47c7-b2d9-a10ce67b4b2e)
-    (property "Reference" "#PWR?" (id 0) (at 131.445 88.265 0)
+    (property "Reference" "#PWR0101" (id 0) (at 131.445 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 130.175 88.265 90)
@@ -2179,7 +2179,7 @@
   (symbol (lib_id "power:VCC") (at 137.795 85.725 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 93480eee-d9fe-413d-9b83-523b8639fae5)
-    (property "Reference" "#PWR?" (id 0) (at 141.605 85.725 0)
+    (property "Reference" "#PWR0108" (id 0) (at 141.605 85.725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 132.08 85.725 90))
@@ -2612,13 +2612,13 @@
   (symbol (lib_id "microcontroller:nice!view") (at 150.495 85.725 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fa417416-1aaa-4fd6-ba5d-3347f975a221)
-    (property "Reference" "Display?" (id 0) (at 163.83 84.4549 90)
+    (property "Reference" "Display1" (id 0) (at 163.83 84.4549 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "nice!view" (id 1) (at 163.83 86.9949 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "nice_view:nice_view" (id 2) (at 167.005 85.725 0)
+    (property "Footprint" "microcontroller:nice_view" (id 2) (at 167.005 85.725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://nicekeyboards.com/docs/nice-view/pinout-schematic" (id 3) (at 125.095 88.265 0)
@@ -2693,6 +2693,9 @@
   )
 
   (symbol_instances
+    (path "/077fa9e8-6ace-47c7-b2d9-a10ce67b4b2e"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
     (path "/1407de64-f7a0-4a9a-bd83-2447e7e8897c"
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
@@ -2711,11 +2714,8 @@
     (path "/73dc552e-4650-4782-9110-810a19d0b236"
       (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
     )
-    (path "/077fa9e8-6ace-47c7-b2d9-a10ce67b4b2e"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/93480eee-d9fe-413d-9b83-523b8639fae5"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+      (reference "#PWR0108") (unit 1) (value "VCC") (footprint "")
     )
     (path "/737fc51a-35ee-45cc-8be4-9d28881bc01a"
       (reference "D1") (unit 1) (value "1.25V@150mA") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
@@ -2772,7 +2772,7 @@
       (reference "D18") (unit 1) (value "1.25V@150mA") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
     (path "/fa417416-1aaa-4fd6-ba5d-3347f975a221"
-      (reference "Display?") (unit 1) (value "nice!view") (footprint "nice_view:nice_view")
+      (reference "Display1") (unit 1) (value "nice!view") (footprint "microcontroller:nice_view")
     )
     (path "/23241be8-f73f-4bb3-84de-fa8fd5f8d281"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
